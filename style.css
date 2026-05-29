@@ -1,0 +1,291 @@
+/* Reset default browser spacing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main body styling */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ffeef2;
+    color: #444;
+}
+
+/* Navigation bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 10%;
+    background: #ffb6c1;
+
+    position: sticky;
+    top: 0;
+}
+
+/* Website logo */
+.logo{
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+    color: #d63384;
+}
+
+/* Navigation menu */
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+/* Space between menu items */
+nav ul li{
+    margin-left: 25px;
+}
+
+/* Navigation links */
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+nav ul li a:hover{
+    color: #d63384;
+}
+
+/* Hero section */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 80vh;
+
+    padding: 50px 10%;
+    text-align: center;
+}
+
+/* Hero text area */
+.hero-text{
+    max-width: 700px;
+}
+
+/* Main heading */
+.hero-text h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/* Highlight name */
+.hero-text span{
+    color: #ff4d88;
+}
+
+/* Subtitle */
+.hero-text h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #c2185b;
+}
+
+/* Paragraph text */
+.hero-text p{
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/* Buttons container */
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+/* Main pink button */
+.btn{
+    padding: 12px 25px;
+
+    background: #ff4d88;
+    color: white;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.btn:hover{
+    background: #d63384;
+}
+
+/* General section styling */
+section{
+    padding: 80px 10%;
+}
+
+/* Section titles */
+section h2{
+    text-align: center;
+
+    font-size: 40px;
+
+    margin-bottom: 40px;
+
+    color: #d63384;
+}
+
+/* About card */
+.about-card{
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+
+    line-height: 1.8;
+}
+
+/* Skill cards container */
+.skill-container{
+    display: flex;
+
+    gap: 30px;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+/* Individual skill card */
+.skill-card{
+    background: white;
+
+    width: 280px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+/* Hover animation */
+.skill-card:hover{
+    transform: translateY(-10px);
+}
+
+/* Resume page header */
+.resume-header{
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Resume title */
+.resume-header h1{
+    font-size: 60px;
+    color: #d63384;
+}
+
+/* Resume subtitle */
+.resume-header p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* Resume grid layout */
+.resume-container{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 30px;
+}
+
+/* Resume information card */
+.resume-card{
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+/* Card hover effect */
+.resume-card:hover{
+    transform: scale(1.03);
+}
+
+/* Resume card title */
+.resume-card h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Resume list */
+.resume-card ul{
+    list-style: none;
+}
+
+/* List items */
+.resume-card ul li{
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* Footer styling */
+footer{
+    margin-top: 50px;
+
+    padding: 25px;
+
+    background: #ffb6c1;
+
+    text-align: center;
+
+    color: white;
+}
+
+/* Responsive Design for mobile */
+@media(max-width: 900px){
+
+    /* Mobile navigation */
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Smaller title */
+    .hero-text h1{
+        font-size: 45px;
+    }
+
+    /* Smaller subtitle */
+    .hero-text h2{
+        font-size: 22px;
+    }
+
+    /* Smaller section title */
+    section h2{
+        font-size: 32px;
+    }
+
+    /* Smaller resume title */
+    .resume-header h1{
+        font-size: 45px;
+    }
+}
