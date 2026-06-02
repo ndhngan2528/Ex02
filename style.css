@@ -403,10 +403,10 @@ section h2::after{
     animation:fillSkill 1.1s ease both;
 }
 
-.cpp{width:85%;}
-.html{width:90%;}
-.python{width:70%;}
-.git{width:75%;}
+.cpp{width:70%;}
+.html{width:65%;}
+.python{width:60%;}
+.git{width:70%;}
 
 @keyframes fillSkill{
     from{
