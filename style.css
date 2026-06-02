@@ -176,6 +176,7 @@ nav ul li a:hover{
     font-size:13px;
     font-weight:700;
     letter-spacing:3px;
+	font-family:'Lobster', cursive;
 }
 
 .hero-text h1{
@@ -183,6 +184,7 @@ nav ul li a:hover{
     font-size:clamp(44px,7vw,82px);
     line-height:1.02;
     margin-bottom:22px;
+	font-family:'Lobster', cursive;
 }
 
 .hero-text span{
@@ -193,6 +195,7 @@ nav ul li a:hover{
     background:linear-gradient(90deg,var(--cyan),var(--blue),var(--violet));
     -webkit-background-clip:text;
     background-clip:text;
+	font-family:'Lobster', cursive;
 }
 
 .hero-text h2{
@@ -258,6 +261,7 @@ section h2{
     line-height:1.1;
     margin-bottom:28px;
     color:#f8fafc;
+	font-family:'Lobster', cursive;
 }
 
 section h2::after{
@@ -427,6 +431,7 @@ section h2::after{
     background:linear-gradient(90deg,var(--cyan),var(--blue),var(--violet));
     -webkit-background-clip:text;
     background-clip:text;
+	font-family:'Lobster', cursive;
 }
 
 .resume-header p{
@@ -463,6 +468,7 @@ section h2::after{
     color:#f8fafc;
     margin-bottom:18px;
     font-size:21px;
+	font-family:'Lobster', cursive;
 }
 
 .resume-card h2::after{
