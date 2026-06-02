@@ -8,8 +8,8 @@
 /* Main body styling */
 body{
     font-family: 'Poppins', sans-serif;
-    background: #ffeef2;
-    color: #444;
+    background: #f4f8ff;
+    color: #334155;
 }
 
 /* Navigation bar */
@@ -19,17 +19,19 @@ nav{
     align-items: center;
 
     padding: 20px 10%;
-    background: #ffb6c1;
+
+    background: #1e3a8a;
 
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 /* Website logo */
 .logo{
     font-size: 32px;
     font-family: 'Lobster', cursive;
-    color: #d63384;
+    color: #93c5fd;
 }
 
 /* Navigation menu */
@@ -53,7 +55,7 @@ nav ul li a{
 
 /* Hover effect */
 nav ul li a:hover{
-    color: #d63384;
+    color: #93c5fd;
 }
 
 /* Hero section */
@@ -70,7 +72,7 @@ nav ul li a:hover{
 
 /* Hero text area */
 .hero-text{
-    max-width: 700px;
+    max-width: 750px;
 }
 
 /* Main heading */
@@ -81,14 +83,14 @@ nav ul li a:hover{
 
 /* Highlight name */
 .hero-text span{
-    color: #ff4d88;
+    color: #2563eb;
 }
 
 /* Subtitle */
 .hero-text h2{
     font-size: 26px;
     margin-bottom: 20px;
-    color: #c2185b;
+    color: #1e40af;
 }
 
 /* Paragraph text */
@@ -104,11 +106,11 @@ nav ul li a:hover{
     justify-content: center;
 }
 
-/* Main pink button */
+/* Main button */
 .btn{
     padding: 12px 25px;
 
-    background: #ff4d88;
+    background: #2563eb;
     color: white;
 
     border-radius: 30px;
@@ -120,7 +122,7 @@ nav ul li a:hover{
 
 /* Hover effect */
 .btn:hover{
-    background: #d63384;
+    background: #1e3a8a;
 }
 
 /* General section styling */
@@ -136,7 +138,7 @@ section h2{
 
     margin-bottom: 40px;
 
-    color: #d63384;
+    color: #1e3a8a;
 }
 
 /* About card */
@@ -147,7 +149,7 @@ section h2{
 
     border-radius: 20px;
 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 
     line-height: 1.8;
 }
@@ -175,7 +177,7 @@ section h2{
 
     text-align: center;
 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 
     transition: 0.3s;
 }
@@ -183,6 +185,12 @@ section h2{
 /* Hover animation */
 .skill-card:hover{
     transform: translateY(-10px);
+}
+
+/* Skill title */
+.skill-card h3{
+    color: #1e3a8a;
+    margin-bottom: 15px;
 }
 
 /* Resume page header */
@@ -194,13 +202,14 @@ section h2{
 /* Resume title */
 .resume-header h1{
     font-size: 60px;
-    color: #d63384;
+    color: #1e3a8a;
 }
 
 /* Resume subtitle */
 .resume-header p{
     margin-top: 15px;
     font-size: 20px;
+    color: #475569;
 }
 
 /* Resume grid layout */
@@ -220,7 +229,7 @@ section h2{
 
     border-radius: 20px;
 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 
     transition: 0.3s;
 }
@@ -234,6 +243,7 @@ section h2{
 .resume-card h2{
     font-size: 28px;
     margin-bottom: 20px;
+    color: #1e3a8a;
 }
 
 /* Resume list */
@@ -247,13 +257,18 @@ section h2{
     line-height: 1.6;
 }
 
+/* Resume paragraph */
+.resume-card p{
+    line-height: 1.8;
+}
+
 /* Footer styling */
 footer{
     margin-top: 50px;
 
     padding: 25px;
 
-    background: #ffb6c1;
+    background: #1e3a8a;
 
     text-align: center;
 
